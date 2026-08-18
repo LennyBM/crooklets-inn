@@ -1,11 +1,11 @@
-import type { SiteConfig, NavLink } from './types';
+import type { SiteConfig, NavLink } from './types.ts';
 
 export const site: SiteConfig = {
   "slug": "crooklets-inn",
   "name": "Crooklets Inn",
   "shortName": "Crooklets Inn",
   "tagline": "A family-run beachside pub, sports bar and B&B steps from Crooklets Beach in Bude",
-  "intro": "Crooklets Inn serves pub food at lunch and in the evenings, with a strong reputation locally for its Sunday roasts. The menu covers classic pub and British dishes - roasts, fish and chips, steaks, sea",
+  "intro": "Crooklets Inn serves pub food at lunch and in the evenings, with a strong reputation locally for its Sunday roasts.",
   "type": "Bar",
   "established": "",
   "siteUrl": "https://crooklets-inn.vercel.app",
@@ -235,13 +235,12 @@ export const site: SiteConfig = {
     "img-14.jpg",
     "img-15.jpg",
     "img-16.jpg",
-    "img-17.jpg",
     "img-18.jpg",
     "img-19.jpg",
     "img-20.jpg",
     "img-21.jpg"
   ],
-  "hero": "img-00.jpg",
+  "hero": "img-03.jpg",
   "featured": [
     "img-01.jpg",
     "img-02.jpg",
@@ -251,6 +250,23 @@ export const site: SiteConfig = {
     "img-06.jpg"
   ],
   "videoUrls": [],
+  "focal": {
+    "img-00.jpg": "50% 60%",
+    "img-01.jpg": "35% 45%",
+    "img-05.jpg": "20% 40%",
+    "img-10.jpg": "40% 55%",
+    "img-11.jpg": "45% 65%",
+    "img-14.jpg": "55% 60%",
+    "img-15.jpg": "30% 45%",
+    "img-16.jpg": "50% 60%",
+    "img-18.jpg": "50% 60%",
+    "img-21.jpg": "40% 50%"
+  },
+  "design": {
+    "display": "coast",
+    "hero": "split",
+    "order": "rooms-led"
+  },
   "theme": {
     "mode": "light",
     "primary": "#1C5A6E",
